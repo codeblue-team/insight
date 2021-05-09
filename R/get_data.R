@@ -1381,3 +1381,8 @@ get_data.htest <- function(x, ...) {
   }
   out
 }
+
+#TODO Implement get_data.fit.mult.impute
+# mod <- fit.mult.impute(..., x=TRUE)
+# get the data with mod$x (requires x=TRUE in call)
+# need to transform dummy coded variables into factors using mod$Design$parms
